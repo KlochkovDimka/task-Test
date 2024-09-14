@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert-wallet
+      author: Klochkov Dmitry
+      changes:
+        - insert:
+            tableName: wallets
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: amount
+                  value: 1000
